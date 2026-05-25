@@ -1,0 +1,17 @@
+{
+  "certificate_name": "minimal_spine_public_certificate",
+  "status": "PUBLIC_AUDIT_SURFACE_ONLY",
+  "claims": [
+    "invariant-anchor-layer",
+    "certified-obstruction-layer",
+    "reduction-template-layer"
+  ],
+  "boundaries": [
+    "not theorem-prover-complete",
+    "not a primary mathematics-closure repository",
+    "does not prove unrestricted Chronos-RR",
+    "does not prove unrestricted H4.1/FGL",
+    "does not prove P vs NP",
+    "does not prove any Clay problem"
+  ]
+}
