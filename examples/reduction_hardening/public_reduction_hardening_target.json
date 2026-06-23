@@ -1,0 +1,37 @@
+{
+  "artifact": "public_reduction_hardening_target",
+  "date": "2026-06-23",
+  "repository": "urf-spine-public",
+  "status": "EXECUTABLE_REDUCTION_HARDENING_TARGET_ONLY",
+  "theorem_closure": false,
+  "purpose": "Name the next executable public-spine hardening target without claiming theorem-level reduction completeness.",
+  "target_object": {
+    "name": "PublicSpineExecutableReductionHardeningTarget",
+    "scope": "finite public audit surface",
+    "inputs": [
+      "minimal public certificate",
+      "declared non-claim boundaries",
+      "fixed public verifier entry point"
+    ],
+    "required_future_outputs": [
+      "versioned reduction template manifest",
+      "fixed-seed reduction script inventory",
+      "hash-bound gadget catalog",
+      "verifier hook binding each public template to a finite certificate"
+    ]
+  },
+  "blocked_until": [
+    "public reduction template manifest is present",
+    "fixed-seed public reduction scripts are present",
+    "hash-bound public gadget catalog is present",
+    "verifier hook checks template-to-certificate binding"
+  ],
+  "non_claims": [
+    "does not prove unrestricted Chronos-RR",
+    "does not prove unrestricted H4.1/FGL",
+    "does not prove P vs NP",
+    "does not prove any Clay problem",
+    "does not assert theorem-level reduction completeness",
+    "does not assert external validation or peer-reviewed acceptance"
+  ]
+}
