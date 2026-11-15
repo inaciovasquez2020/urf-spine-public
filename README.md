@@ -16,6 +16,11 @@ This repository is a sanitized public mirror of the private `urf-spine` reposito
 
 Claims apply only under declared constraints.
 
+## Verify the public example
+
+From the public checkout, run `python3 tools/verify_public_spine_surface.py`.
+The script checks the included certificate and its declared scope. See [Quickstart](QUICKSTART.md).
+
 ## What this public mirror contains
 
 - public status surface
